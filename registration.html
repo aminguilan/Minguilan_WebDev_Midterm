@@ -11,7 +11,9 @@
       <br> our stores posted our onhand items, our Group Orders and Sales.</p>
      </center>
   
+            <label for = "fname">
             <b> First Name </b>
+            </label>
             <input type="text" 
                      id="FName" 
                      name="FName"
@@ -19,8 +21,10 @@
              />
         
         <br></br>
-    
+             
+            <label for = "lname">
             <b> Last Name </b>
+            </label>
             <input type="text" 
                      id="LName" 
                      name="LName"
@@ -29,27 +33,47 @@
         
         <br></br>
 
+            <label for = "add">
             <b> Complete Address </b>
+            </label>
             <
-              textarea cols="60" rows="3" placeholder=""Building Number, Street Name, 
+              textarea cols="60" rows="3" placeholder="Building Number, Street Name, 
                Neighborhood, City, Postal Code or Zip Code, Additional Number" 
-                  value= "address"required
+                  value= "address" required
              >
-         
-            <b> Password </b>      
+                  
+         <br></br>
+                  
+            <label for = "pass">      
+            <b> Password </b>    
+            </label>
             <input type="password" 
                   id="txtPassword" 
                   name="txtPassword" />
+                  
+          <br></br>
             
+            <label for = "pnum">
+            <b> Phone Number </b>
+            </label>
+            <input type = "text" 
+                  name = "code"
+                  value="+63" 
+                  size="2/">
+            
+          <br></br>
+            
+            <label for = "mop">
             <b> Mode of Payment </b>
-                  <small> you can edit it anytime </small>
+            </label>
             <select name="MOP" 
-                  id="MOP">
+                    id="MOP">
               <option value="gcash">GCASH</option>
               <option value="BPI">BPI</option>
               <option value="paymaya">Paymaya</option>
               <option value="palawan express">Palawan Express</option>
-            </select>       
+            </select>
+            <small> you can edit it anytime </small>
                   
                   
                   
@@ -62,10 +86,3 @@
                   
           
 </body>
-
-                  
-                  
-                  
-                  
-                  
-                  
