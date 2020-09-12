@@ -56,33 +56,53 @@
    .col-9 {width: 75%;}
 
 }
-    </style>
-   
-        <body style="background-color:F8E3D4;">
-        <h1 class = "title text-center"> MASTER DETAIL </h1>
+    <h1 class = "title text-center"> MASTER DETAIL </h1>
         
     
         <div class = "container">
                 <div class = "col-3 master">
-                  <h1 style="color: thistle" align= "center"> ACTIVITIES                      </h1><br>
+                  <h1 style="color: thistle" align= "center"> ACTIVITIES </h1><br>
                   
+    
                   <div class = "master-act"
                        id = "reg"
-                       onclick="myFunction()"> REGISTRATION </div>
+                       onclick="myFunction()"> REGISTRATION 
                   
-                  <div class = "master-act"> CALENDAR </div>
+                  </div>
+                  
+                  
+                  <div class = "master-act"
+                       id = "cal"
+                       onclick="myFunction1()"> CALENDAR </div>
+                  
                   <div class = "master-act"> WISH LIST </div>
                   <div class = "master-act"> MARK UP </div>
                   <div class = "master-act"> POEM  </div>
         </div>
           
-          
-         <div id="regi"></div>
+       
+       <div id="regi">
+         <iframe id="regis" ></iframe>
+       </div>
           <script>
           function myFunction() {
-                document.getElementById("regi").src = "registration.html"
+                document.getElementById("regis").src = "registration.html"
               }
             </script>
+          
+    
+       <div id="cali">
+         <iframe id="calen" ></iframe>
+       </div>
+          <script>
+          function myFunction1() {
+                document.getElementById("calen").src = "calendar.html"
+                var id = document.getElementById("regis");
+                id.style.display = "none";
+              }
+            </script>
+                 
+          
           
           
 </body>
