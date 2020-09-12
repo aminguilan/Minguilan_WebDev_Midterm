@@ -61,32 +61,27 @@
     
     </style>
     <h1 class = "title text-center"> MASTER DETAIL </h1>
-    
-              <iframe id = "reg" 
-                      src="registration.html">
-              </iframe>
-    
-    
-    
         
         <div class = "container">
                 <div class = "col-3 master">
                   
-                  <button class= "master-act"
-                          onclick="myFunction()">REGISTRATION</button>
+                  <div class = "master-act"
+                       id = "registration"
+                          onclick="registration()">REGISTRATION</div>
                   <div class = "master-act"> CALENDAR </div>
                   <div class = "master-act"> WISH LIST </div>
                   <div class = "master-act"> MARK UP </div>
                   <div class = "master-act"> POEM  </div>
         </div>
-                
-<p id="demo"></p>
-<script>
-function myFunction() {
-  var x = document.getElementById("reg").src;
-  document.getElementById("demo").innerHTML = x;
-}
-</script>
+
+          
+          
+        <iframe id="registration" 
+                src="registration.html" 
+                width="720" 
+                height="420"></iframe>
+          
+          
           
           
 </body>
