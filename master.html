@@ -77,14 +77,24 @@
                        id = "cal"
                        onclick="myFunction1()"> CALENDAR </div>
                   
-                  <div class = "master-act"> WISH LIST </div>
-                  <div class = "master-act"> MARK UP </div>
-                  <div class = "master-act"> POEM  </div>
+                    <div class = "master-act"
+                       id = "wish"
+                       onclick="myFunction2()"> WISHLIST </div>
+                  
+                     <div class = "master-act"
+                       id = "mp"
+                       onclick="myFunction3()"> MARK UP </div>
+                  
+                    <div class = "master-act"
+                       id = "pm"
+                       onclick="myFunction4()"> POEM </div>
         </div>
           
        
        <div id="regi">
-         <iframe id="regis" ></iframe>
+         <iframe id="regis" 
+                 width= "1100"
+                 height = "620"></iframe>
        </div>
           <script>
           function myFunction() {
@@ -94,7 +104,9 @@
           
     
        <div id="cali">
-         <iframe id="calen" ></iframe>
+         <iframe id="calen"
+                  width= "1100"
+                 height = "620"></iframe>
        </div>
           <script>
           function myFunction1() {
@@ -103,7 +115,46 @@
                 id.style.display = "none";
               }
             </script>
-                 
+          
+          
+           <div id="wlis">
+         <iframe id="wishl"
+                  width= "1100"
+                 height = "620"></iframe>
+       </div>
+          <script>
+          function myFunction1() {
+                document.getElementById("wishl").src = "wishlist.html"
+                var id = document.getElementById("calen");
+                id.style.display = "none";
+              }
+            </script>
+          
+         <div id="map">
+         <iframe id="mark"
+                  width= "1100"
+                 height = "620"></iframe>
+       </div>
+          <script>
+          function myFunction1() {
+                document.getElementById("mark").src = "markup.html"
+                var id = document.getElementById("wishl");
+                id.style.display = "none";
+              }
+            </script>
+          
+          <div id="tula">
+         <iframe id="poemm"
+                  width= "1100"
+                 height = "620"></iframe>
+       </div>
+          <script>
+          function myFunction1() {
+                document.getElementById("poemm").src = "poem.html"
+                var id = document.getElementById("mark");
+                id.style.display = "none";
+              }
+            </script>
           
           
           
