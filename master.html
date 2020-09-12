@@ -4,13 +4,11 @@
   <head>
       <meta charset = "UTF-8">
   </head>
+  
+  
+  <body>
     
   <style>
-    
-    .html{
-    font-family:a Anti Corona;
-    } 
-    
     .title {
   font-size: 32px;
   border-bottom: 3px solid plum;
@@ -60,26 +58,38 @@
    .col-9 {width: 75%;}
 
 }
-
-    
     </style>
-    
+   
         <body style="background-color:F8E3D4;">
         <h1 class = "title text-center"> MASTER DETAIL </h1>
-    
-    
         
     
         <div class = "container">
                 <div class = "col-3 master">
-                  <p style="color: thistle"> ACTIVITIES </p>
-                  <div class = "master-act"> REGISTRATION </div>
+                  <h1 style="color: thistle" align= "center"> ACTIVITIES                      </h1><br>
+                  
+                  <div class = "master-act"
+                       id = "reg"
+                       onclick="myFunction()"> REGISTRATION </div>
+                  
                   <div class = "master-act"> CALENDAR </div>
                   <div class = "master-act"> WISH LIST </div>
                   <div class = "master-act"> MARK UP </div>
                   <div class = "master-act"> POEM  </div>
         </div>
-
+          
+          <iframe id="registration" 
+                  src="/default.asp"
+                  align = "center"
+                  width= "950"
+                  height="655"> </iframe>
+          
+          <p id="demo"></p>
+          <script>
+          function myFunction() {
+                document.getElementById("demo").innerHTML = x;
+              }
+            </script>
                  
           
           
