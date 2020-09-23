@@ -1,1 +1,81 @@
+body ,html {
+   height: 130%;
+  color:white;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #B3CEE5; 
+}
+
+.hero-image {
+  background-image:  url("https://vignette.wikia.nocookie.net/girlgroup/images/d/d2/2019_SVT_3rd_FAN_MEETING_SEVENTEEN_in_CARAT_LAND.jpg/revision/latest/scale-to-width-down/1000?cb=20190130035127");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+p {
+  line-height: 1.5;
+}
+.logo{
+border-radius: 15px;
+width:20px;
+  height:20px;
+  object-fit:cover;
+}
+
+
+/* ASIDE */
+
+aside {
+    float : left;
+    width : 320px;
+    margin-right: 20px;
+    margin-bottom : 15px;
+    background-color : #b3cee5 ;
+    padding : 5px;
+}
+
+aside h1 {
+    color: white;
+    font-size : 1.2em;
+    margin-top : 0px;
+}
+
+    aside h2 {
+    color: #f7cac9;
+    font-size : 1em;
+}
+
+aside div {
+    padding : 5px;
+    background-color :  white;;
+    margin-bottom : 15px;
+}
+
+aside ul {
+    line-height : 1.8em;
+    list-style-type : square;
+    color : #b3cee5;
+}
+header {
+    margin-bottom : 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
 
