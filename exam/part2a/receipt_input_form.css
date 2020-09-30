@@ -1,0 +1,176 @@
+body{
+  background:thistle;
+}
+.header {
+  text-align: center;
+  background: #96869B;
+  color: white;
+  font-size: 20px;
+}
+
+.body {
+  padding: 20px;
+  width: 100%;
+  height: 50%;
+  background: #CEC2C9;
+}
+
+input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button{
+  background-color: thistle;
+  transition-duration: 0.4s;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: plum;
+  color: white;
+}
+  
+input[type=tel], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label
+{
+  color: black;
+  font-size: 16px;
+}
+
+.firstpressalbums {
+  margin: 0;
+  padding: 20px 0 ;
+  background-color: white;
+}
+.firstpressalbums li {
+  display: inline-block;
+  width: 25%;
+  color: #96869B;
+  text-align: center;
+}
+
+.list {
+  margin: 0;
+  padding: 10px 0px ;
+}
+.list li {
+  display: inline-block;
+  width:100%;
+  color: #96869B;
+}
+
+input[type=number], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #96869B ;
+  transition-duration: 0.4s;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 12px;
+}
+button:hover {
+  background-color: thistle;
+  color: white;
+}
+
+.merch {
+  margin: 0;
+  padding: 20px 0 ;
+  background-color: white;
+}
+.merch li {
+  display: inline-block;
+  width: 25%;
+  color: #96869B;
+  text-align: center;
+}
+
+.overall {
+  margin: 0;
+  padding: 20px 0 ;
+  background-color: white;
+}
+.overall {
+  display: inline-block;
+  width: 25%;
+  color: #96869B;
+  text-align: center;
+}
+
+.textf{
+   width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid thistle;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.input [type=submit],select{
+  background-color: #96869B ;
+  transition-duration: 0.4s;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.submit{
+ background-color: #96869B ;
+  transition-duration: 0.4s;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 24px;
+}
+.submit:hover {
+  background-color: thistle;
+  color: white;
+}
