@@ -1,0 +1,49 @@
+body{
+  height: 50px;
+  width: 401px;
+  background-color:gray;
+}
+
+#examinvoice{
+  padding:5px;
+  width: 35%;
+  background: #FFF;
+}
+
+p{
+  font-size: 7px;
+  color: #666;
+  line-height: 1.2em;
+}
+
+.secc{
+  font-size: 7px;
+  color: #666;
+  line-height: 1.2em;
+}
+
+
+div.a {
+  line-height: normal;
+  font-size: 7px;
+}
+
+p.foura{
+  word-spacing: 1px;
+    line-height: normal;
+}
+
+div.aa{
+  word-spacing: 1px;
+    line-height: normal;
+}
+
+h5{
+    font-size: 7px;
+  color:#666;
+}
+
+
+
+  
+  
