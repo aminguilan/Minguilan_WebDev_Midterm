@@ -141,6 +141,9 @@ position:relative;
   color:white;
 }
 
+
+ul {list-style-type: none;}
+
 p{
   color: #737373;
 }
