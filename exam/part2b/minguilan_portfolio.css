@@ -43,7 +43,7 @@ button:hover {
 }
 
 
-.home {
+.homee {
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("https://raw.githubusercontent.com/aminguilan/Minguilan_WebDev_Midterm/master/exam/part2b/image%204%20(2).jpg");
   height:100vh;
   width: 100%;
@@ -71,16 +71,20 @@ width:20px;
 }
 .aboutme{
   text-align:center;
-   background:#D1CFCE;
-  color:#737373;
+   background:#737373;
+  color:#D1CFCE;
   box-sizing: border-box;
+   width: 100%;
+  height: 100vh;
  display: flex;
  align-items: center;
  justify-content: space-between;
  padding: 50px 5% 0px 5%;
  position: relative;
 }
-
+.about{
+  color:#D1CFCE;
+}
 .hobbies {
    text-align:center;
    background:#D1CFCE;
@@ -123,7 +127,7 @@ width:20px;
 
 aside {
     float : left;
-   width : 500px;
+   width : 350px;
     margin-right: 40px;
     margin-bottom : 5px;
     background-color : #737373;
@@ -138,11 +142,22 @@ position:relative;
  height: 100vh;
    background:#D1CFCE;
   color:#737373;
-  color:white;
+  text-align:center;
 }
 
+.weekdays {
+  margin: 0;
+  padding: 15px 0 ;
+  background-color: #737373;
+}
 
-ul {list-style-type: none;}
+.weekdays li {
+  display: inline-block;
+  width: 10%;
+  color:#D1CFCE;
+  text-align: center;
+  font-size: 16px;
+}
 
 p{
   color: #737373;
