@@ -159,6 +159,22 @@ position:relative;
   font-size: 16px;
 }
 
+.master-act {
+  font-size: 25px;
+  border-bottom: 3px solid #D1CFCE;
+  color: #D1CFCE;
+  padding: 10px;
+  
+}
+
+.master-act:hover,
+.active-act{
+  background:#D1CFCE;
+  color: white;
+  cursor: pointer;
+  
+}
+
 p{
   color: #737373;
 }
