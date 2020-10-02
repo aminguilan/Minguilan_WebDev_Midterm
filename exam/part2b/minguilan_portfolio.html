@@ -33,20 +33,19 @@
     <div id="home" class="homee">
   <div class="text">
     <h1 style="font-size:50px">WELCOME TO MY CRIB!
-    <br></h1>
-      <img class="logo" src="https://www.qualitylogoproducts.com/images/_icons/_icon_facebook-smi.svg" alt="ig" width="400" height="300">
-          <a href=" https://www.facebook.com/aemariee/">@aemariee</a>
-        <br>
-      <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Circle-icons-phone.svg" alt="ig" width="400" height="300">
-          <a>09773455446</a>      
-      <br>
-      <img class="logo" src="https://icons.iconarchive.com/icons/graphicloads/100-flat-2/128/email-icon.png" alt="ig" width="400" height="300">
-          <a>aminguilan_190000001130@uic.edu.ph</a>  
+    <br>
+      <button class="button"><span> <a href="#end">Contact me! </a></span></button>
       
+    </h1>
   </div></div>
 <!-- 2nd -->
     <div class="aboutme" id ="aboutme">
-      <h1 style="font-size:35px">HELLO !</h1>
+      <h1 style="font-size:35px">
+        HELLO ! <br>
+        HELLO ! <br>
+        HELLO ! <br>
+        <button class="button"><span>more  </span></button>
+      </h1>
       <p class = "about">
       Welcome to my crib,  I am Alexis Marie an Information <br> Technology student from University of the Immaculate Conception. 
         <br> This website is all about me and my works as i take up this course. <br> I hope you will enjoy exploring my own crib!
@@ -104,30 +103,104 @@
         
           <ul class="weekdays">
   <li class = "master-act"
+                       id = "cal"
+                       onclick="myFunction()">CALENDAR</li>
+  <li class = "master-act"
+                       id = "poem"
+                       onclick="myFunction2()">POEM</li>
+  <li class = "master-act"
                        id = "reg"
-                       onclick="myFunction()">MY BIRTHMONTH CALENDAR</li>
-  <li>POEM</li>
-  <li>REGISTRATION</li>
-  <li>VMG</li>
-  <li>MARKUP</li>
-  <li>MASTER DETAIL</li>
-  <li>CALENDAR WITH CSS</li>
+                       onclick="myFunction3()">REGISTRATION</li>
+  <li class = "master-act"
+                       id = "vmg"
+                       onclick="myFunction4()">VMG</li>
+  <li class = "master-act"
+                       id = "mp"
+                       onclick="myFunction5()">MARKUP</li>
+  <li class = "master-act"
+                       id = "md"
+                       onclick="myFunction6()">MASTER DETAIL</li>
+  <li class = "master-act"
+                       id = "calcss"
+                       onclick="myFunction7()">CALENDAR WITH CSS</li>
 </ul>
           
            <iframe id="myframe" 
-                 width= "1100"
-                 height = "900"
-                 style = "border:3px solid plum;">
+                 width= "1200"
+                 height = "500"
+                 style = "border:3px solid #737373;">
        </iframe>
           
        <div id="regi">
        </div>
           <script>
           function myFunction() {
-                document.getElementById("myframe").src = "calendar.html"
+                document.getElementById("myframe").src = "https://aminguilan.github.io/Minguilan_WebDev_Midterm/calendar.html"
               }
             </script>
           
+           <div id="regi">
+       </div>
+          <script>
+          function myFunction2() {
+                document.getElementById("myframe").src = "https://aminguilan.github.io/Minguilan_WebDev_Midterm/poem.html"
+              }
+            </script>
+          
+            <div id="regi">
+       </div>
+          <script>
+          function myFunction3() {
+                document.getElementById("myframe").src = "https://aminguilan.github.io/Minguilan_WebDev_Midterm/registration.html"
+              }
+            </script>
+          
+            <div id="regi">
+       </div>
+          <script>
+          function myFunction4() {
+                document.getElementById("myframe").src = "https://aminguilan.github.io/Minguilan_WebDev_Midterm/vmg.html"
+              }
+            </script>
+          
+            <div id="regi">
+       </div>
+          <script>
+          function myFunction5() {
+                document.getElementById("myframe").src = "https://aminguilan.github.io/Minguilan_WebDev_Midterm/markup.html"
+              }
+            </script>
+          
+            <div id="regi">
+       </div>
+          <script>
+          function myFunction6() {
+                document.getElementById("myframe").src = "https://aminguilan.github.io/Minguilan_WebDev_Midterm/masterdetail.html"
+              }
+            </script>
+          
+            <div id="regi">
+       </div>
+          <script>
+          function myFunction7() {
+                document.getElementById("myframe").src = "https://aminguilan.github.io/Minguilan_WebDev_Midterm/calendarwithcss.html"
+              }
+            </script>
     </div>
+    
+     <div class="end" id="end">
+       <br> 
+       Contact me here:
+       <br> <br>
+         <img class="logo" src="https://www.qualitylogoproducts.com/images/_icons/_icon_facebook-smi.svg" alt="ig" width="400" height="300">
+          <a href=" https://www.facebook.com/aemariee/">@aemariee</a>
+        <br>
+      <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Circle-icons-phone.svg" alt="ig" width="400" height="300">
+          <a>09773455446</a>      
+      <br>
+       
+      <img class="logo" src="https://icons.iconarchive.com/icons/graphicloads/100-flat-2/128/email-icon.png" alt="ig" width="400" height="300">
+          <a>aminguilan_190000001130@uic.edu.ph</a>  
+       </div>
   </body>
 </html>
