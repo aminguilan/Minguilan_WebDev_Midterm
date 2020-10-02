@@ -1,0 +1,103 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: a Anti Corona, monospace;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/aminguilan/Minguilan_WebDev_Midterm/master/exam/part2b/image%204.jpg");
+  height:100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+.logo{
+border-radius: 25px;
+width:20px;
+  height:20px;
+  object-fit:cover;
+}
+
+.hb {
+  padding: 20px;
+  width:100%;
+  height: 3px;
+  background: #735E59;
+  text-align: center;
+  color:white;
+}
+
+.hd {
+  padding: 20px;
+  width: 100%;
+  height: 3px;
+  background: #735E59;
+  text-align: center;
+  color:white;
+}
+
+.pics {
+   padding: 20px;
+  width: 100%;
+  height: 250px;
+ background: #735E59;
+}
+
+.column {
+  float: left;
+  width:241px;
+  padding: 5px;
+}
+
+img {
+  border-radius: 8px;
+}
+p{
+  color: white;
+}
+
+.aboutme{
+  color: #735E59;
+}
+
+.container{
+  margin: 0;
+  padding: 15px 0 ;
+  background-color: plum;
+}
+
+.container li{
+  display: inline-block;
+  width: 20%;
+  color: white;
+  text-align: center;
+}
+
+button {
+  background-color: thistle;
+  border:thistle;
+ border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
