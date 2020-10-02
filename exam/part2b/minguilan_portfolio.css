@@ -1,22 +1,57 @@
+body{
+ margin:0px;
+ padding:0px;
+ background-color:#D1CFCE; 
+ font-family: "Lucida Console", Courier, monospace;
+}
 
-html, body {
-  height: 100%;
+ul{
+ list-style:none;
+}
+a{
+ text-decoration:none;
+}
+
+.container{
   margin: 0;
-  font-family: a Anti Corona, monospace;
+  padding: 5px 0 ;
+  background-color: #D1CFCE;
 }
 
-.full-height {
-  height: 100%;
+.container li{
+     font-family:"Lucida Console", Courier, monospace;
+  display: inline-block;
+  width: 15%;
+  color: white;
+  text-align: center;
+  color: white;
 }
 
-.image {
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/aminguilan/Minguilan_WebDev_Midterm/master/exam/part2b/image%204.jpg");
-  height:100%;
+button {
+  background-color: #D1CFCE; 
+  color: black; 
+  border: 2px solid #D1CFCE;
+  font-size: 16px;
+  border-radius: 12px;
+  padding: 10px 24px;
+}
+
+button:hover {
+  background-color: #D1CFCE;
+  color: #737373;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.home {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("https://raw.githubusercontent.com/aminguilan/Minguilan_WebDev_Midterm/master/exam/part2b/image%204%20(2).jpg");
+  height:100vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+ box-sizing: border-box;
 }
 
 .text {
@@ -34,70 +69,80 @@ width:20px;
   height:20px;
   object-fit:cover;
 }
-
-.hb {
-  padding: 20px;
-  width:100%;
-  height: 3px;
-  background: #735E59;
-  text-align: center;
-  color:white;
+.aboutme{
+  text-align:center;
+   background:#D1CFCE;
+  color:#737373;
+  box-sizing: border-box;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 50px 5% 0px 5%;
+ position: relative;
 }
 
-.hd {
-  padding: 20px;
-  width: 100%;
-  height: 3px;
-  background: #735E59;
-  text-align: center;
-  color:white;
+.hobbies {
+   text-align:center;
+   background:#D1CFCE;
+  color:#737373;
+  box-sizing: border-box;
+ 
 }
 
-.pics {
-   padding: 20px;
+.pics{ 
   width: 100%;
-  height: 250px;
- background: #735E59;
+  height: 100vh;
+ background:#D1CFCE;
 }
 
 .column {
-  float: left;
-  width:241px;
+ float: left;
+  width: 33.33%;
   padding: 5px;
 }
-
-img {
+ 
+.aa{
+ box-sizing: border-box;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px 5% 0px 1%;
+ position: relative;
   border-radius: 8px;
 }
+.imgg{
+    margin-left: 10%;
+  margin-right: 50%;
+  font-size:20px;
+    color: #737373;
+}
+.hbbb{
+    margin-left: 50%;
+  margin-right: 50%;
+    color: #737373;
+}
+
+aside {
+    float : left;
+   width : 320px;
+    margin-right: 40px;
+    margin-bottom : 90px;
+    background-color : #737373;
+}
+aside h2{
+  color:#D1CFCE;
+}
+
+.myworks {
+position:relative;
+ width:100%;
+ height: 100vh;
+  background: #735E59;
+  text-align: center;
+  color:white;
+}
+
 p{
-  color: white;
+  color: #737373;
 }
 
-.aboutme{
-  color: #735E59;
-}
-
-.container{
-  margin: 0;
-  padding: 15px 0 ;
-  background-color: plum;
-}
-
-.container li{
-  display: inline-block;
-  width: 20%;
-  color: white;
-  text-align: center;
-}
-
-button {
-  background-color: thistle;
-  border:thistle;
- border-radius: 25px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
