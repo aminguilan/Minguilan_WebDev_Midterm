@@ -1,0 +1,364 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#E3EEF6;
+}
+
+/* navigation and header na part*/
+.header {
+  background-color: #E3EEF6;
+  padding: 30px 20px;
+  text-align: center;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#C8D9E4;
+}
+
+li {
+  float: right;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #E3EEF6;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #C8D9E4;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+input[type=text] {
+  width: 750px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('https://www.iconsdb.com/icons/preview/black/search-13-xxl.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 70%;
+}
+  
+  
+  .btn {
+  background-color: #E3EEF6;
+  border: none;
+  color: black;
+  padding: 12px 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:#C8D9E4;
+}
+
+.logo{
+border-radius: 25px;
+width:20px;
+  height:20px;
+  object-fit:cover;
+}
+
+
+h1{
+      font-size: 24px;
+}
+
+
+.articles-news {
+	width:100%;
+	height:50px;
+	background-color:#C8D9E4;
+}
+
+/* WHAT IS COVID*/
+
+#more{
+  display: none;
+}
+
+.intro-container {
+	width:80%;
+	height:400px;
+	background-color:#C8D9E4;
+	border-radius:20px;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.);
+	display:flex;
+	margin:-7% auto 20px auto;
+	position:relative;
+	justify-content: space-evenly;
+	align-items:center;
+}
+.intro-container img{
+	height: 300px;
+    margin-top: 25px;
+}
+.intro-one{
+	width:550px;
+}
+.intro-one p:nth-child(1){
+	color:#403e3e;
+	font-family: myriad pro;
+	font-weight:bold;
+	font-size: 23px;
+	line-height:0px;
+}
+.intro-one p:nth-child(2){
+	color:#666666;
+	font-size:16px;
+	font-family: system-ui;
+	line-height: 25px;
+}
+
+.button {
+	width: 120px;
+	height: 40px;
+	color:black;
+  font-size:16px;
+	outline:none;
+	border:none;
+	font-family: calibri;
+	background:#E3EEF6;
+}
+.button:hover {
+  background-color: #D1CFCE;
+  color: #737373;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* DIRI ANG SA ARTICLES UG NEWS NA EDIT EDIT*/
+.newsart{
+  float:left;
+}
+.newsart a{
+  display: inline-block;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 16px;
+}
+
+.newsart a:hover{
+  background-color: #E3EEF6;
+}
+
+/* BODY NA PABABA ANI NA DAPIT*/
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 50%;
+  background-color: #E3EEF6;
+  padding-left: 30px;
+}
+
+.card {
+  background-color: #E3EEF6;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.buttn {
+  border-radius: 4px;
+  background-color: #C8D9E4;
+  border: none;
+  color:  black;
+  text-align: center;
+  font-size: 13px;
+  padding: 15px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttn:hover span {
+  padding-right: 25px;
+}
+
+.buttn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button1 {
+  background-color: #C8D9E4;
+  color:black;
+  border: none;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 395px;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 41.4%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*SA CHAAAAATBOOOOX*/
+
+.open-button {
+  background-color:#C8D9E4;
+  color:BLACK;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #C8D9E4;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #C8D9E4;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #6666;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  color:white;
+  background-color: #666;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
