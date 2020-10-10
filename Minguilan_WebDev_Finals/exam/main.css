@@ -193,20 +193,22 @@ h1{
 }
 
 /* BODY NA PABABA ANI NA DAPIT*/
-.leftcolumn {   
-  float: left;
-  width: 50%;
+
+.onee{
+	width:40%;
+	height:650px;
+	background-color:#C8D9E4;
+	border-radius:20px;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.);
+	display:flex;
+	margin:-7% auto 20px auto;
+	position:relative;
+
 }
 
-.rightcolumn {
-  float: left;
-  width: 50%;
-  background-color: #E3EEF6;
-  padding-left: 30px;
-}
 
 .card {
-  background-color: #E3EEF6;
+  background-color: #C8D9E4;
   padding: 20px;
   margin-top: 20px;
 }
@@ -272,12 +274,12 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 395px;
-  height: auto;
+  width: 700px;
+  height:350px;
 }
 
 div.desc {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -288,7 +290,7 @@ div.desc {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 41.4%;
+  width:714px;
 }
 
 .clearfix:after {
@@ -301,7 +303,7 @@ div.desc {
 /*SA CHAAAAATBOOOOX*/
 
 .open-button {
-  background-color:#C8D9E4;
+  background-color:#ddd;
   color:BLACK;
   padding: 16px 20px;
   border: none;
