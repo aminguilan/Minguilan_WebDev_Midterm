@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      
+      function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+             
+  function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+      
+      </script>
+
+<body>
+   <div class="articles-news">
+   <ul>
+ 
+  <li class="newsart">
+    <center>
+     
+       <li><a href="#news">HOME</a></li>
+      </center>
+  </li>
+</ul>
+    
+    </div>
+  
+  <center>
+   <div id="home" class="header">  <br> 
+    <img  src="https://scontent-hkg4-2.xx.fbcdn.net/v/t1.15752-9/121163200_1328269480897991_2295220111110401067_n.png?_nc_cat=111&_nc_sid=ae9488&_nc_ohc=v5wp9ecKSLYAX9NkdHN&_nc_ht=scontent-hkg4-2.xx&oh=0b0a9ecac822a02923f7b9f720e50324&oe=5FA581F6" alt="ig" width="350" height="150">
+  
+  
+   <div id="home" class="header"> 
+  
+  </div>
+   
+  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+  
+    <div class="intro-container">
+<!-- intro chuchu -->
+<img src="https://apicms.thestar.com.my/uploads/images/2020/02/01/537518.jpg">
+<!-- INTRO CHUCHU SAD -->
+<div class="intro-one">
+<p>About Us</p>
+<p>There are a lot of things that we people can help with what we are experiencing nowadays. We could design a web application that contains articles about this pandemic, we can put the things that can help us in reducing the increasing percentage of this pandemic. All of us can be a big help in doing this. 
+  <span id="dots">...</span><span id="more">
+ We could also put their recent news, update about the pandemic. Tips in preventing the massive growth of this pandemic. get the sources from those who are studying about it or legit source. We could also add in the features of website about the happenings or places that has a lot of numbers of positive cases. We should provide something that could or might help us.
+<br>
+  <h4>CONTACT US HERE!
+    <br>
+  covidbuster@gmail.com
+  </h4>
+  </span></p>
+<!-- button -->
+<button class="button" onclick="myFunction()" id="myBtn">Read more</button>
+</div>
+</div>
+    </div>
+<!--FREQ ASK QUESTIONS-->
+     
+        
+  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+  
+    <div class="onee">
+      <h2 style="text-align:left;">
+        &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; FREQUENT
+      <br> &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; ASKED
+        <br> &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; QUESTIONS
+      </h2>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <img src="https://scontent.fmnl4-5.fna.fbcdn.net/v/t1.15752-9/121097384_775976312979771_7521625043391996916_n.png?_nc_cat=111&_nc_sid=ae9488&_nc_ohc=KpTKwzDAjLYAX-7Zs31&_nc_ht=scontent.fmnl4-5.fna&oh=19764132a7ac19e361d0a2ae1b7e03db&oe=5FA7F506">
+       <img src="https://scontent.fmnl4-5.fna.fbcdn.net/v/t1.15752-9/120998020_3290869131001603_2694494187727986440_n.png?_nc_cat=100&_nc_sid=ae9488&_nc_ohc=ux_Q6d0aKg0AX-3GX1_&_nc_ht=scontent.fmnl4-5.fna&oh=f8e5e1347d48bb172f548f6a87ed917d&oe=5FA5AC48">
+      
+</div>
+    
+     <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+
+    
+    
+    
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>REPORT A PROBLEM</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+    
+    
+    
+      </head>
+   </body>
+</html>
