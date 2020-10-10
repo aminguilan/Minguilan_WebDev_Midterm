@@ -3,8 +3,36 @@
   
 <head>
 <link rel="stylesheet" type="text/css" href="main.css">
-<script type="text/javascript" href="main.js">
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script>
+    
+     function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+             
+    
+  function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+  
+
+    </script>
 
   </head>
 <body>
