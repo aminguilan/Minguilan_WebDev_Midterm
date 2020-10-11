@@ -1,0 +1,31 @@
+.post-number,.tab-pane{
+    color: gray;
+}
+
+.nav,.navbar{
+ background-image: linear-gradient(to right, pink, lightblue);
+}
+.tab-content{
+    background-image: linear-gradient(to right, pink, lightblue);
+}
+
+.btn {
+  transition-duration: 0.4s;
+  padding: 12px 28px;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, pink, thistle);
+  color: black;
+}
+
+.dropdown-item, .dropdown-divider{
+   background-image: linear-gradient(to right, pink, thistle);
+}
+
+.card-img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
