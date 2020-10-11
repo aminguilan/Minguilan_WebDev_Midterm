@@ -1,0 +1,40 @@
+form {
+  max-width: 400px;
+}
+
+
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightblue);
+}
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  box-shadow: none;
+}
+
+input[type="textt"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+input[type="url"],
+textarea,
+fieldset {
+  width : 250px;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+
+
+button {
+  transition-duration: 0.4s;
+  padding: 12px 28px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-image: linear-gradient(to right, pink, lightblue);
+  color: black;
+}
