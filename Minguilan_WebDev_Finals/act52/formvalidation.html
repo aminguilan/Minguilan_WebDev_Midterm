@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html en = "lang">
+    <head>
+      
+      <link rel="stylesheet" 
+      type="text/css"
+      href="style.css"/>
+      
+      
+      <script>
+        function myFunction() {
+  alert("Make sure you honestly fill out the form.");
+}
+        </script>
+      
+      
+      <center>
+       <input type="image" 
+              src="https://raw.githubusercontent.com/aminguilan/Minguilan_WebDev_Midterm/master/logo.png"  
+              width="150" 
+              height="150">
+        
+      </center>
+      
+        <title>CREATE ACCOUNT</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1">  
+    </head>
+    <body>
+        
+    <center>       
+  <form>
+  <h2>CREATE ACCOUNT</h2>
+  <p> Create an account now so that you will be updated if 
+      <br> our stores posted our onhand items, our Group Orders and Sales.</p>
+     </center>
+      
+      <label>
+            <b> First Name : </b>
+            </label>
+            <input type="textt" 
+                     id="FName" 
+                     name="First"
+                     size="20"
+                     placeholder="Alexis Marie" required
+             />
+      <br>
+        <br>
+             
+            <label>
+            <b> Last Name : </b>
+            </label>
+            <input type="textt" 
+                     id="LName" 
+                     name="Last"
+                     size="20"
+                     placeholder="Minguilan" required
+             />
+        
+        <br>
+        <br>
+      <label>
+            <b> Complete Address : </b>
+            </label>
+            <br>
+           <input type="textt" 
+                     id="LName" 
+                     name="Last"
+                     size="20"
+                     placeholder="Building Number, Street Name, Neighborhood, City, Postal Code or Zip Code, Additional Number." required
+             />
+         <br>
+         <br>
+            
+            <label>
+            <b> Phone Number : </b>
+            </label>
+            <br>
+            <input type = "text" 
+                  name = "code"
+                  value="+63" 
+                  size="1"/>
+            <input type="tel" 
+                   id="phone" 
+                   name="phone"
+                  
+                   placeholder="91234567810"
+                   required/>
+
+         <br>
+         <br>
+            
+            <label>
+                <b>Enter your email: </b>
+            </label>
+            <input type="email"
+                   id="email" 
+                   name="email"
+                   placeholder="youremail@gmail.com" required>
+
+         <br>
+         <br>
+
+            <label>
+                <b> Facebook Url :</b>
+            </label>
+            <input type="url" 
+                   id="fburl" 
+                   name="fburl" required>
+            
+         <br>
+         <br>
+            
+            <label>
+                <b> Twitter Url :</b>
+            </label>
+            <input type="url" 
+                   id="twturl" 
+                   name="twturl" required>
+       
+          <br>
+          <br>
+                  
+            <label>      
+            <b> Password </b>    
+            </label>
+            <br>
+            <input type="password" 
+                  id="pass" 
+                  name="password"
+                   placeholder ="your password here" required/>
+                  
+          <br>
+            
+          
+            <br>
+      <label for="t1">Mode of Payment:<abbr title="This field is mandatory" aria-label="required"></abbr></label>
+      <br>
+    <input type="text" id="t1" name="fruit" list="l1" required >
+    <datalist id="l1">
+      <option>GCASH</option>
+      <option>BPI</option>
+      <option>BDO</option>
+      <option>PAYMAYA</option>
+      <option>PALAWAN EXPRESS</option>
+    </datalist>
+
+          <br>
+          <br>
+
+            <label>   
+              <legend>New Account?<abbr title="This field is mandatory" aria-label="required"></abbr></legend>
+      <input type="radio" required name="driver" id="r1" value="yes"><label for="r1">Yes</label>
+      <input type="radio" required name="driver" id="r2" value="no"><label for="r2">No</label>
+            
+            <br>
+            <br>
+
+          <legend>Accept Terms & Regulations<abbr title="This field is mandatory" aria-label="required"></abbr></legend>
+      <input type="checkbox" required name="driver" id="r1" value="yes"><label for="r1">Yes</label>
+           
+            <br>
+            <br>
+            
+                 <button onclick="myFunction()">
+                     REGISTER
+                </button>
+  
+                <button>
+                     RESET 
+                </button>
+   
+      
+      
+      
+      
+      
+</form>     
+</body>
+</html>
